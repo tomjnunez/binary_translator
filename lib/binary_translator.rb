@@ -1,4 +1,5 @@
 class BinaryTranslator
+  attr_reader :alpha_to_binary
   def initialize
     @alpha_to_binary = {
       "a" => "000001",
